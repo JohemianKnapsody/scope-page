@@ -768,6 +768,10 @@ html {
   transform: translateY(-2px);
 }
 
+.team-img {
+  width: 75%
+}
+
 /* Footer */
 footer {
   background: #1a252f;
