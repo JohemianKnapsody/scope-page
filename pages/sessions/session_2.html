@@ -53,8 +53,8 @@
         <div class="container">
             <h2 class="section-title">Session Cases</h2>
             <p style="text-align: center; font-size: 1.1rem; margin-bottom: 3rem; color: #666;">Review the session learning objectives below, and come to the session prepared to discuss your answers.  Then go to each case, and review the history along with the case slide to generate a diagnosis.  The reference slide is available to show a comparison between normal histology for that area and the pathology in the case.<br>
-            <a href="..\..\assets\objectives\ScOPE Session 2_9,20 upload.pdf" target="_blank" class="register-btn" style="width:30%">Learning Objectives</a>
-            <a href="..\..\assets\objectives\ScOPE Session 2_9,20 upload_port.pdf" target="_blank" class="register-btn" style="width:30%">Objetivos de aprendizagem</a>
+            <a href="..\..\assets\objectives\ScOPE Session 2_9,20 upload.pdf" target="_blank" class="register-btn" style="width:30%"> 🇬🇧 Learning Objectives</a>
+            <a href="..\..\assets\objectives\ScOPE Session 2_9,20 upload_port.pdf" target="_blank" class="register-btn" style="width:30%"> 🇵🇹 Objetivos de aprendizagem</a>
             </p>
             <div class="cases-grid">
                 <div class="case-card">
@@ -103,6 +103,7 @@
                         <h4>Clinical Information</h4>
                         <p>63 year old female presented with abdominal pain and ascites.  CT scan showed a 31 cm ovarian mass with cystic and solid areas.  CA125 was 524 U/mL, CEA was 700 U/mL. Frozen section diagnosis was at least mucinous borderline tumor, and thus a bilateral salpingo-oophorectomy was performed.</p>
                     </div>
+                    <br>
                     <a href="https://www.digitalscope.org/ViewerUI/?SlideId=3f52ec5a-535b-4912-a44d-3aac3d69f543" target="_blank" class="wsi-button">🔬 View Case Slide</a>
                     <br><br>
                     <a href="https://www.digitalscope.org/ViewerUI/?SlideId=9b9e0d19-66bf-4493-999e-049e0e3b6dd4" target="_blank" class="wsi-button">🔬 View Reference Slide</a>
@@ -139,14 +140,14 @@
                     <div class="resource-icon">📊</div>
                     <h3>Presentation Slides</h3>
                     <p>Complete PowerPoint presentation with detailed case discussions, diagnostic criteria, and key learning points from the session.</p>
-                    <a href="../../assets/slides/session1.pdf" download="Endocrine_pathology" target="_blank" class="resource-button">Download PowerPoint</a>
+                    <a href="#" class="resource-button">Download PowerPoint</a>
                 </div>
                 
                 <div class="resource-card">
                     <div class="resource-icon">🎥</div>
                     <h3>Recorded Session</h3>
                     <p>Full video recording of the live session including expert commentary, case discussions, and Q&amp;A segment.</p>
-                    <a href="https://umich.zoom.us/rec/play/ILWU6bhpa5TDVe6Z7h51KgEwatIXJGl45g2QDhEF3eY6YVSckAQoe9S-jRZPSmkAj1gyLtirqC2vLES8.-4-n4ZugOYMImqVR?eagerLoadZvaPages=&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&startTime=1756399570000&componentName=rec-play&originRequestUrl=https%3A%2F%2Fumich.zoom.us%2Frec%2Fshare%2Fk5VoDul0adxwtX5QpRAGvEpKmzfoH_kMGbfNORzkr-vWR3aT-Fg1hjJlmJhym1_W.mwy_De0zMsqG480v%3FstartTime%3D1756399570000" target="_blank" class="resource-button">Watch Recording</a>
+                    <a href="#" class="resource-button">Watch Recording</a>
                 </div>
             </div>
         </div>
@@ -194,17 +195,17 @@
         });
 
         // Add click handlers for resource buttons (placeholder functionality)
-        // document.querySelectorAll('.resource-button').forEach(button => {
-        //     button.addEventListener('click', function(e) {
-        //         e.preventDefault();
-        //         const buttonText = this.textContent;
-        //         if (buttonText.includes('PowerPoint')) {
-        //             alert('This would download the PowerPoint presentation.');
-        //         } else if (buttonText.includes('Recording')) {
-        //             alert('This would open the recorded session video.');
-        //         }
-        //     });
-        // });
+        document.querySelectorAll('.resource-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+               e.preventDefault();
+               const buttonText = this.textContent;
+               if (buttonText.includes('PowerPoint')) {
+                   alert('This will download the PowerPoint presentation after the session.');
+               } else if (buttonText.includes('Recording')) {
+                   alert('This will open the recorded video call after the session.');
+               }
+            });
+        });
     </script>
 </body>
 </html>
