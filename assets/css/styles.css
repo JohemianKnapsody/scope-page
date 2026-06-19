@@ -1,5 +1,7 @@
 body {
-  font: 400 16px/1.5 "Open Sans", sans-serif;
+  font:
+    400 16px/1.5 "Open Sans",
+    sans-serif;
   color: #111;
   background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
@@ -33,7 +35,7 @@ body {
 header {
   background: linear-gradient(135deg, #a5256d 0%, #8f0e59 100%);
   color: white;
-  padding: 1rem 0;
+  padding: 16px 0 0 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -73,7 +75,7 @@ nav {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #C5247F 0%, #8B1A5C 100%);
+  background: linear-gradient(135deg, #c5247f 0%, #8b1a5c 100%);
   color: white;
   padding: 120px 0 80px;
   text-align: center;
@@ -96,7 +98,7 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background: #FF6B9D;
+  background: #ff6b9d;
   color: white;
   padding: 15px 30px;
   text-decoration: none;
@@ -110,7 +112,7 @@ nav {
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
-  background: #C5247F;
+  background: #c5247f;
 }
 
 /* Section Styling */
@@ -127,7 +129,7 @@ nav {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #C5247F;
+  color: #c5247f;
   position: relative;
 }
 
@@ -139,7 +141,7 @@ nav {
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: #FF6B9D;
+  background: #ff6b9d;
 }
 
 /* How It Works */
@@ -167,7 +169,7 @@ nav {
   text-decoration: none;
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #C5247F, #8B1A5C);
+  background: linear-gradient(135deg, #c5247f, #8b1a5c);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -180,14 +182,14 @@ nav {
 .feature-card a {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #C5247F;
+  color: #c5247f;
   text-decoration: none;
   font-weight: bold;
 }
 
 /* Session Format */
 .session-format {
-  background: linear-gradient(135deg, #FF6B9D 0%, #C5247F 100%);
+  background: linear-gradient(135deg, #ff6b9d 0%, #c5247f 100%);
   color: white;
   padding: 60px 0;
   text-align: center;
@@ -242,7 +244,7 @@ nav {
 .team-avatar {
   width: 100px;
   height: 100px;
-  background: linear-gradient(135deg, #C5247F, #8B1A5C);
+  background: linear-gradient(135deg, #c5247f, #8b1a5c);
   border-radius: 50%;
   margin: 0 auto 1rem;
   display: flex;
@@ -257,7 +259,7 @@ nav {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #C5247F;
+  color: #c5247f;
 }
 
 .team-role {
@@ -267,7 +269,7 @@ nav {
 
 /* Contact Section */
 .contact {
-  background: #8B1A5C !important;
+  background: #8b1a5c !important;
   color: white;
   text-align: center;
 }
@@ -290,7 +292,7 @@ nav {
 }
 
 .contact-card a {
-  color: #FF6B9D;
+  color: #ff6b9d;
   text-decoration: none;
 }
 
@@ -311,8 +313,10 @@ nav {
   border-radius: 15px;
   padding: 2rem;
   box-shadow: 0 5px 25px rgba(197, 36, 127, 0.1);
-  border-left: 5px solid #C5247F;
-  transition: transform 0.3s, box-shadow 0.3s;
+  border-left: 5px solid #c5247f;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
 }
 
 .event-card:hover {
@@ -327,7 +331,7 @@ nav {
 }
 
 .event-day {
-  background: linear-gradient(135deg, #C5247F, #8B1A5C);
+  background: linear-gradient(135deg, #c5247f, #8b1a5c);
   color: white;
   border-radius: 12px;
   padding: 1rem;
@@ -356,7 +360,7 @@ nav {
 .event-title {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #C5247F;
+  color: #c5247f;
   margin-bottom: 1rem;
 }
 
@@ -375,7 +379,7 @@ nav {
 
 .topic-tag {
   background: rgba(209, 197, 204, 0.993);
-  color: #C5247F;
+  color: #c5247f;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -402,12 +406,12 @@ nav {
 
 .status-registration {
   background: rgba(255, 107, 157, 0.1);
-  color: #C5247F;
+  color: #c5247f;
 }
 
 .register-btn {
   display: inline-block;
-  background: linear-gradient(135deg, #C5247F, #8B1A5C);
+  background: linear-gradient(135deg, #c5247f, #8b1a5c);
   color: white;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -493,7 +497,7 @@ nav {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #FF6B9D;
+  color: #ff6b9d;
 }
 
 .country-name {
@@ -519,7 +523,7 @@ nav {
   width: 40px;
   height: 40px;
   margin: 0 auto 1rem;
-  border: 2px solid #FF6B9D;
+  border: 2px solid #ff6b9d;
   border-radius: 50%;
   position: relative;
   background: rgba(255, 107, 157, 0.1);
@@ -532,7 +536,7 @@ nav {
   left: 50%;
   width: 2px;
   height: 12px;
-  background: #FF6B9D;
+  background: #ff6b9d;
   transform: translate(-50%, -100%);
   transform-origin: bottom;
 }
@@ -557,7 +561,7 @@ nav {
 }
 
 .lecture-time strong {
-  color: #FF6B9D;
+  color: #ff6b9d;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -624,8 +628,10 @@ html {
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  border-left: 5px solid #C5247F;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  border-left: 5px solid #c5247f;
 }
 
 .case-card:hover {
@@ -640,7 +646,7 @@ html {
 }
 
 .case-number {
-  background: linear-gradient(135deg, #C5247F, #8B1A5C);
+  background: linear-gradient(135deg, #c5247f, #8b1a5c);
   color: white;
   border-radius: 12px;
   padding: 1rem;
@@ -654,7 +660,7 @@ html {
 .case-title {
   font-size: 1.4rem;
   font-weight: bold;
-  color: #C5247F;
+  color: #c5247f;
 }
 
 .case-subtitle {
@@ -668,11 +674,11 @@ html {
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 1.5rem;
-  border-left: 4px solid #FF6B9D;
+  border-left: 4px solid #ff6b9d;
 }
 
 .clinical-info h4 {
-  color: #C5247F;
+  color: #c5247f;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
@@ -684,7 +690,7 @@ html {
 
 .wsi-button {
   display: inline-block;
-  background: linear-gradient(135deg, #C5247F, #8B1A5C);
+  background: linear-gradient(135deg, #c5247f, #8b1a5c);
   color: white;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -702,7 +708,7 @@ html {
 
 /* Resources Section */
 .resources-section {
-  background: linear-gradient(135deg, #8B1A5C 0%, #C5247F 100%);
+  background: linear-gradient(135deg, #8b1a5c 0%, #c5247f 100%);
   color: white;
   text-align: center;
   padding: 80px 0;
@@ -743,7 +749,7 @@ html {
 .resource-card h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #FF6B9D;
+  color: #ff6b9d;
 }
 
 .resource-card p {
@@ -769,7 +775,7 @@ html {
 }
 
 .team-img {
-  width: 75%
+  width: 75%;
 }
 
 /* Footer */
@@ -778,6 +784,19 @@ footer {
   color: white;
   text-align: center;
   padding: 2rem 0;
+}
+
+.hiatus-banner {
+  background: #6e1549;
+  color: white;
+  text-align: center;
+  font-size: 0.95rem;
+  padding: 10px 0;
+}
+.hiatus-banner a {
+  color: #ff6b9d;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=styles.css.map */
